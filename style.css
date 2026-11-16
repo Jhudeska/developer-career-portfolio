@@ -1,7 +1,7 @@
 
 :root {
-  --primary: #2563eb;
-  --primary-dark: #1d4ed8;
+  --primary: #568259;
+  --primary-dark: #93b48b;
   --text: #172033;
   --muted: #64748b;
   --background: #ffffff;
@@ -220,7 +220,7 @@ button {
   height: 115px;
   margin: 0 auto 20px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #dbeafe, #bfdbfe);
+  background: linear-gradient(135deg, #dbeafe, #f1fffa);
   color: var(--primary);
   display: grid;
   place-items: center;
@@ -228,8 +228,20 @@ button {
   font-weight: 800;
 }
 
+.profile-circle-img{
+  width: 150px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: -16px 0 0 -15px;
+}
+
 .hero-card h3 {
   font-size: 1.4rem;
+
+
+  margin-top: 100px;
 }
 
 .hero-card > p {
@@ -361,7 +373,7 @@ button {
   max-width: 760px;
   margin-top: 40px;
   margin-left: 8px;
-  border-left: 2px solid #bfdbfe;
+  border-left: 2px solid #f1fffa;
   padding-left: 30px;
 }
 
@@ -451,11 +463,11 @@ button {
   gap: 7px;
   margin: 20px 0;
 }
-
+g
 .tags span {
   padding: 5px 9px;
-  background: #eff6ff;
-  color: #1d4ed8;
+  background: #f1fffa;
+  color: #568259;
   font-size: .72rem;
   font-weight: 700;
   border-radius: 5px;
