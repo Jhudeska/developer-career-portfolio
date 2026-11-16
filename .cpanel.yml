@@ -2,7 +2,8 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/ignadasn/career.thepresenceofadonai.com/
+    - /bin/mkdir -p $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
     - /bin/cp script.js $DEPLOYPATH
-    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R assets/. $DEPLOYPATH/assets/
