@@ -1,0 +1,317 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal software developer portfolio, career and projects.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Developer Portfolio | Jhudeska Ignacia</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+</head>
+<body>
+
+<header class="header">
+  <nav class="nav container">
+    <a href="#home" class="logo">dev<span>.</span>portfolio</a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Open navigation" aria-expanded="false">
+      ☰
+    </button>
+
+    <div class="nav-links" id="navLinks">
+      <a href="#about" data-en="About" data-nl="Over mij">About</a>
+      <a href="#skills" data-en="Skills" data-nl="Vaardigheden">Skills</a>
+      <a href="#career" data-en="Career" data-nl="Carrière">Career</a>
+      <a href="#projects" data-en="Projects" data-nl="Projecten">Projects</a>
+      <a href="#contact" data-en="Contact" data-nl="Contact">Contact</a>
+      <button id="languageToggle" class="language-toggle">NL</button>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero container" id="home">
+    <div class="hero-content">
+      <span class="eyebrow"
+        data-en="SOFTWARE DEVELOPMENT · PORTFOLIO"
+        data-nl="SOFTWARE DEVELOPMENT · PORTFOLIO">
+        SOFTWARE DEVELOPMENT · PORTFOLIO
+      </span>
+
+      <h1>
+        <span data-en="Building digital" data-nl="Digitale oplossingen">Building digital</span>
+        <span class="accent"
+          data-en="solutions." data-nl="bouwen.">solutions.</span>
+      </h1>
+
+      <p class="hero-description"
+        data-en="Hi, I'm Jhudeska Ignacia. I'm a software developer passionate about building useful, reliable and modern software."
+        data-nl="Hallo, ik ben Jhudeska Ignacia. Ik ben software developer en gepassioneerd over het bouwen van bruikbare, betrouwbare en moderne software.">
+        Hi, I'm Jhudeska Ignacia. I'm a software developer passionate about building useful, reliable and modern software.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary"
+          data-en="Explore my work →" data-nl="Bekijk mijn werk →">
+          Explore my work →
+        </a>
+        <a href="documents/cv.pdf" class="btn btn-outline" download
+          data-en="Download CV ↓" data-nl="Download CV ↓">
+          Download CV ↓
+        </a>
+      </div>
+
+      <div class="social-links">
+        <a href="https://github.com/Jhudeska"
+           target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <a href="https://www.linkedin.com/in/jhudeska-ignacia-8066733a/"
+           target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <div class="profile-circle">DEV</div>
+      <h3>Your Name</h3>
+      <p data-en="Software Developer"
+         data-nl="Software Developer">Software Developer</p>
+      <div class="status">
+        <span class="status-dot"></span>
+        <span data-en="Open to opportunities"
+              data-nl="Open voor mogelijkheden">
+          Open to opportunities
+        </span>
+      </div>
+      <div class="card-bottom">
+        <span>💻 Development</span>
+        <span>🚀 Innovation</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section section-light" id="about">
+    <div class="container">
+      <span class="eyebrow">01 / ABOUT</span>
+      <h2 data-en="A little about me"
+          data-nl="Even voorstellen">A little about me</h2>
+
+      <div class="about-grid">
+        <div>
+          <p class="section-description"
+            data-en="I'm a software developer interested in technology, problem-solving and creating digital experiences. I enjoy learning new technologies and turning ideas into working applications."
+            data-nl="Ik ben een software developer met interesse in technologie, probleemoplossing en digitale ervaringen. Ik leer graag nieuwe technologieën en zet ideeën om in werkende applicaties.">
+            I'm a software developer interested in technology,
+            problem-solving and creating digital experiences.
+            I enjoy learning new technologies and turning ideas
+            into working applications.
+          </p>
+        </div>
+        <div class="info-card">
+          <p><strong data-en="Focus" data-nl="Focus">Focus</strong><br>
+            <span data-en="Software Development"
+                  data-nl="Softwareontwikkeling">Software Development</span></p>
+          <p><strong data-en="Location" data-nl="Locatie">Location</strong><br>
+            Netherlands</p>
+          <p><strong data-en="Interests" data-nl="Interesses">Interests</strong><br>
+            Web · Backend · Automation</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section container" id="skills">
+    <span class="eyebrow">02 / TECH STACK</span>
+    <h2 data-en="Technologies & tools"
+        data-nl="Technologieën & tools">Technologies & tools</h2>
+    <p class="section-description"
+      data-en="Technologies I work with or am currently exploring."
+      data-nl="Technologieën waarmee ik werk of die ik momenteel ontdek.">
+      Technologies I work with or am currently exploring.
+    </p>
+
+    <div class="skills-grid">
+      <div class="skill">HTML5</div>
+      <div class="skill">CSS3</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">PHP</div>
+      <div class="skill">Java</div>
+      <div class="skill">Git</div>
+      <div class="skill">MySQL</div>
+      <div class="skill">REST APIs</div>
+      <div class="skill">Linux</div>
+      <div class="skill">C#</div>
+    </div>
+    <p class="small-note"
+      data-en="Edit this list to match your actual skills."
+      data-nl="Pas deze lijst aan zodat deze overeenkomt met je echte vaardigheden.">
+      Edit this list to match your actual skills.
+    </p>
+  </section>
+
+  <!-- CAREER -->
+  <section class="section section-light" id="career">
+    <div class="container">
+      <span class="eyebrow">03 / MY JOURNEY</span>
+      <h2 data-en="Career & education"
+          data-nl="Carrière & opleiding">Career & education</h2>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="timeline-date">20XX – PRESENT</span>
+          <h3 data-en="Software Developer"
+              data-nl="Software Developer">Software Developer</h3>
+          <p class="timeline-place">Company / Personal Development</p>
+          <p data-en="Describe your current role, responsibilities and achievements here."
+             data-nl="Beschrijf hier je huidige functie, verantwoordelijkheden en prestaties.">
+            Describe your current role, responsibilities and achievements here.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">20XX – 20XX</span>
+          <h3 data-en="Education / Training"
+              data-nl="Opleiding / Training">Education / Training</h3>
+          <p class="timeline-place">School / Institution</p>
+          <p data-en="Add your education, relevant courses or certifications."
+             data-nl="Voeg je opleiding, relevante cursussen of certificaten toe.">
+            Add your education, relevant courses or certifications.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <span class="timeline-date">20XX – 20XX</span>
+          <h3 data-en="Previous Experience"
+              data-nl="Eerdere ervaring">Previous Experience</h3>
+          <p class="timeline-place">Company / Project</p>
+          <p data-en="Describe previous experience or an important milestone."
+             data-nl="Beschrijf eerdere ervaring of een belangrijke mijlpaal.">
+            Describe previous experience or an important milestone.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section container" id="projects">
+    <span class="eyebrow">04 / SELECTED WORK</span>
+    <h2 data-en="Featured projects"
+        data-nl="Uitgelichte projecten">Featured projects</h2>
+    <p class="section-description"
+      data-en="A selection of things I've built and explored."
+      data-nl="Een selectie van projecten die ik heb gebouwd en onderzocht.">
+      A selection of things I've built and explored.
+    </p>
+
+    <div class="projects-grid">
+      <article class="project-card">
+        <div class="project-icon">🌐</div>
+        <h3>Personal Portfolio</h3>
+        <p data-en="A personal website to present my skills, career and projects."
+           data-nl="Een persoonlijke website om mijn vaardigheden, carrière en projecten te presenteren.">
+          A personal website to present my skills, career and projects.
+        </p>
+        <div class="tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+        <a href="https://github.com/Jhudeska"
+           target="_blank" rel="noopener noreferrer"
+           class="project-link">GitHub ↗</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-icon">⚙️</div>
+        <h3>Project Two</h3>
+        <p data-en="Add a short description of another application or project."
+           data-nl="Voeg een korte beschrijving toe van een andere applicatie of een project.">
+          Add a short description of another application or project.
+        </p>
+        <div class="tags">
+          <span>Technology</span><span>Development</span>
+        </div>
+        <a href="https://github.com/Jhudeska"
+           target="_blank" rel="noopener noreferrer"
+           class="project-link">GitHub ↗</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-icon">💡</div>
+        <h3>Project Three</h3>
+        <p data-en="Showcase an experiment, automation tool or personal project."
+           data-nl="Presenteer een experiment, automatiseringstool of persoonlijk project.">
+          Showcase an experiment, automation tool or personal project.
+        </p>
+        <div class="tags">
+          <span>Development</span><span>Git</span>
+        </div>
+        <a href="https://github.com/Jhudeska"
+           target="_blank" rel="noopener noreferrer"
+           class="project-link">GitHub ↗</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- CV -->
+  <section class="section section-light" id="cv">
+    <div class="container cv-panel">
+      <div>
+        <span class="eyebrow">05 / RESUME</span>
+        <h2 data-en="Want to know more?"
+            data-nl="Meer weten?">Want to know more?</h2>
+        <p data-en="Download my CV for a complete overview of my experience and skills."
+           data-nl="Download mijn CV voor een compleet overzicht van mijn ervaring en vaardigheden.">
+          Download my CV for a complete overview of my experience and skills.
+        </p>
+      </div>
+      <a href="documents/cv.pdf" class="btn btn-primary" download>
+        <span data-en="Download CV ↓" data-nl="Download CV ↓">Download CV ↓</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section container" id="contact">
+    <span class="eyebrow">06 / GET IN TOUCH</span>
+    <h2 data-en="Let's connect."
+        data-nl="Laten we kennismaken.">Let's connect.</h2>
+    <p class="section-description"
+      data-en="Have a project, opportunity or just want to talk about technology? Feel free to reach out."
+      data-nl="Heb je een project, een mogelijkheid of wil je gewoon over technologie praten? Neem gerust contact op.">
+      Have a project, opportunity or just want to talk about technology?
+      Feel free to reach out.
+    </p>
+
+    <a href="mailto:jvsignacia@live.nl" class="btn btn-primary">
+      ✉ Contact me
+    </a>
+
+    <div class="contact-links">
+      <a href="https://github.com/Jhudeska"
+         target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      <a href="https://www.linkedin.com/in/jhudeska-ignacia-8066733a/"
+         target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+      <a href="mailto:jvsignacia@live.nl">Email ↗</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span>© <span id="year"></span> Jhudeska Ignacia</span>
+    <span data-en="Built with curiosity & code."
+          data-nl="Gebouwd met nieuwsgierigheid & code.">
+      Built with curiosity & code.
+    </span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

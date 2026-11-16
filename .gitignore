@@ -1,0 +1,33 @@
+
+# Personal documents
+documents/cv.pdf
+documents/*.docx
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Dependencies (if added later)
+node_modules/
+vendor/
+
+# Build output (if added later)
+dist/
+build/
